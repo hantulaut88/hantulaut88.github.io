@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    background-image: url('https://i.pinimg.com/736x/f0/1f/e6/f01fe6cd906c3a95905cd533ec2ed9c9.jpg'); 
+    background-size: cover; /* Agar gambar menutupi seluruh halaman */
+    background-position: center center; /* Memastikan gambar selalu di tengah */
+    background-attachment: fixed; /* Agar gambar tetap statis saat scroll */
+    height: 100vh; /* Agar latar belakang mencakup seluruh tinggi layar */
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#quiz-container {
+    margin: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: rgba(76, 175, 80, 0.8); /* Warna tombol dengan transparansi */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(76, 175, 80, 1);
+}
+
+#jumpscareImage {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
